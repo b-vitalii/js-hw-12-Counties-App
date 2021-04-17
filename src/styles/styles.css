@@ -1,0 +1,81 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+*::before,
+*::after {
+  box-sizing: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: rgb(21, 176, 214);
+}
+
+h1 {
+  text-align: center;
+  margin-top:10%;
+  color: #000000;
+  font-weight: normal;
+  font-family: 'Ultra', sans-serif;  
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-shadow: 0 2px white, 0 3px rgb(4, 0, 211);
+}
+
+input {
+  flex: auto;
+  background: rgb(152, 230, 165);
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.form {
+  width: 400px;
+  margin: 2em auto;
+}
+
+
+.country_flag {
+  
+  width: 150px;
+  height: 100px;
+  
+}
+
+
+.container {
+  clear: none;
+  background: rgb(152, 230, 165);
+  padding: 50px 30px;
+  position: relative;
+  text-align: left;
+}
+
+
+.country_list {
+  display: flex;
+  font-size: 14px;
+  margin-right: 5px;
+  list-style: none;
+  padding: 0; 
+}
+.country_list li {
+  padding: 10px 30px;
+  background: linear-gradient(to left, #41c405 0%, white, #2db81b);
+  border-bottom: 1px solid grey;
+  color: #000000;
+  
+  box-shadow: 0 5px 5px 0 rgba(0,0,0, .2);
+  margin-bottom: 5px;
+  }
+  .country_list li:last-child {border-bottom: none;}
+
+
+  
