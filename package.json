@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/b-vitalii/js-hw-12-Counties-App"
   },
-  "homepage": "https://github.com/b-vitalii/js-hw-12-Counties-App",
+  "homepage": "https://b-vitalii.github.io/js-hw-12-Counties-App",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
